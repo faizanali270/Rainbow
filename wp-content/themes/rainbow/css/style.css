@@ -2144,9 +2144,6 @@ ul.nav-menu .focus > ul,
     color: #333333;
     float: right;
   }
-    div#menuToggle.open{
-        top: -170px;
-    }
   .nav-bar.open {
     right: 0;
   }
