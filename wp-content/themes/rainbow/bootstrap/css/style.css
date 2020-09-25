@@ -1,0 +1,1327 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div{
+	box-sizing: border-box;
+	float: none !important;
+}
+@font-face{
+   font-family: AvenirFont;
+   src: url('font family/avenirltstd/AvenirLTStd-Book.ttf');
+}
+@font-face{
+   font-family: BoldFont;
+   src: url('font family/myriadpro/MYRIADPRO-BOLD.OTF');
+}
+@font-face{
+   font-family: RegularFont;
+   src: url('font family/myriadpro/MYRIADPRO-REGULAR.OTF');
+}
+.change-color{
+	color: #e4ed1c;
+}
+.heading-h1{
+    font-family: FirstFont;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    line-height: 28px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 85%;
+}
+.blue-block{
+	background: #0056fe;
+	margin-top:  25px!important;
+	margin-bottom: 25px !important;
+}
+.block-p{
+	font-size: 25px;
+	font-weight: 600;
+}
+.img-set{
+	width: 100%;
+	height: 100%;
+}
+
+.home-page{
+	background:  #66ccff;
+}
+/******************
+      Nav bar
+******************/
+.navbar{
+	padding-bottom: 0px;
+	font-size: 24px;
+}
+.item-1 a{
+	background-color: #0056fe;
+    color: yellow !important;
+}
+.item-2 a{
+	background-color: #ed1c24;
+    color: #ccddff !important;
+}
+.item-3 a{
+	background-color: #ffde16;
+    color: #7f3e98 !important;
+}
+.item-4 a{
+	background-color: #0b911b;
+    color: #ff7797 !important;
+}
+.item-5 a{
+	background-color: #f26522;
+    color: #0beeaa !important;
+}
+.item-6 a{
+	background-color: #7f3e98;
+    color: #00f4ff !important;
+}
+.item-7 a{
+	background-color: #ef6497;
+    color: #9f0b10 !important;
+    font-weight: bold;
+}
+/********************
+     Banner
+********************/
+.banner{
+   width: 100%;
+   min-height: 500px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url('../images/banner.jpg');
+   background-position: center;
+}
+
+
+.h-sec-3{
+	margin-top: 25px !important;
+	margin-bottom: 25px !important;
+	display: flex;
+	justify-content: center;
+}
+.h-sec-4 .sec-1 .text{
+    padding: 20px;
+    color: white;
+    font-size: 1.7vw;
+    line-height: 26px;
+    background: #0056fe; 
+}
+.h-sec-4 .sec-2 img{
+	width: 100%;
+}
+.h-sec-6 .audio-block i{
+	font-size: 40px;
+	color: #ffde15;
+}
+.h-sec-6{
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+}
+.h-sec-6 .audio-block{
+    margin-top: 25px;
+}
+.h-sec-7{
+	padding-top: 25px !important;
+	padding-bottom: 25px !important;
+}
+.h-sec-7 .excting-1{
+	padding: 0px !important;
+}
+.h-sec-9{
+	margin-top: 20px !important;
+}
+.h-sec-9 .img-1{
+	width: 280px;
+	height: 210px;
+}
+.img-ring img{
+    height: 350px;
+}
+.rainbow-text .heading-h1{
+   font-size: 30px !important;
+}
+.course-block{
+	margin-top:0px !important;
+}
+.footer{
+  padding-top: 25px;
+	background: #0056fe;
+	margin-left: 0px !important;
+  color:  white;
+}
+.footer-img{
+  padding-top: 114px !important;
+  background-position: center; 
+}
+.footer .footer-menu-section ul li{
+    list-style: none;
+    line-height: 30px;
+}
+.footer .footer-menu-section ul li a{
+  font-family: AvenirFont;
+  font-size: 19px !important;
+  color: white;
+  font-weight: 400;
+  transition: all .3s ease-in-out;
+}
+.footer .footer-menu-section ul li a:hover{
+    text-decoration: none;
+    color: #f9f923;
+    padding-left: 5px;
+    transition: all .3s ease-in-out;
+}
+.footer .footer-menu-section ul li .quick-link{
+   text-decoration: underline;
+}
+.footer-email a{    
+    font-family: AvenirFont;
+    font-size: 18px;
+    color: #fff;
+}
+.footer-socialicon{
+   font-size: 40px;
+}
+.footer-socialicon .twitter{
+    color: ;
+}
+.copy-right h6{
+  font-family: AvenirFont;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+   font-size: 20px;
+   padding:  20px 0px;
+   margin-bottom: 0px;
+}
+/********************************
+      Contact
+********************************/
+.rainbow-text-section .page-text i{
+   font-size: 50px;
+   margin-right: 20px;
+   color: #213f9a;
+   float: right;
+}
+.rainbow-text-section .page-text a{
+   font-family: RegularFont;
+   text-decoration: none;
+    color: #213f9a;
+    font-size: 34px;
+}
+/********************************
+    About-Us, goals page,
+********************************/
+.page-bg{
+      background: #213f9a;
+      width: 100%;
+}
+.page-bg .rainbow-text-section{
+    background:  #ef6497;
+    padding: 20px 40px 20px 50px;
+    margin-bottom: 50px !important;
+}
+.rainbow-heading{
+   font-family: BoldFont;
+   color: #213f8e;
+   background: #ed1c24;
+   margin-top: 20px !important;
+   margin-bottom: 4px !important;
+}
+.rainbow-heading .rainbow-heading-1{
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding: 20px 10px;
+   font-size: 2.5vw;
+   text-align: center;
+}
+.rainbow-text-section .page-text .text-h4{
+    font-family: RegularFont;
+    color: #000000;
+    font-size: 25px;
+    padding-top: 30px;
+    line-height: 30px;
+    padding-bottom: 0px;
+    color: white;
+    font-weight: 400;
+}
+.rainbow-text-section .page-text .text-h4 .text-color {
+    font-family: BoldFont;
+    color: #213f9a; 
+}
+.rainbow-text-section .page-text .text-head{
+    font-family: BoldFont;
+    color: #213f9a;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.rainbow-text-section .page-text .text-style {
+    font-family: BoldFont;
+    color: #213f9a;
+    font-size: 25px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.rainbow-text-section .page-text .text-change a{
+    text-decoration: none;
+    font-family: RegularFont;
+    color:  #213f9a;
+    font-size: 25px;
+}
+/************************************************
+    Howitworks, Features, BookDescription page,
+************************************************/
+.main-section{
+      background: #7f3e98;
+      width: 100% ;
+}
+.rainbow-page-heading{
+    background: #ffde16;
+   margin-top: 20px !important;
+   margin-bottom: 4px !important;
+}
+.main-section .rainbow-block1-section{
+    background:  #ffde16;
+    padding: 20px 40px 20px 50px;
+    margin-bottom: 50px !important;
+}
+.rainbow-page-heading .rainbow-heading-1{
+    font-family: RegularFont;
+    color: purple;
+    font-size: 34px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.rainbow-block1-section .page-text .text-h4{
+    font-family: RegularFont;
+    color: #000;
+    font-size: 24px;
+    padding-top: 30px;
+    line-height: 30px;
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+.rainbow-block1-section .page-text .padding{
+    padding-top: 0px !important;
+}
+.rainbow-block1-section .page-text .text-h4 .text-color {
+    font-family: BoldFont;
+    color: #213f9a; 
+}
+.rainbow-block1-section .page-text .text-head{
+    font-family: RegularFont;
+    color: purple;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+.rainbow-block1-section .page-text .text-style {
+    font-family: BoldFont;
+    color: #213f9a;
+    font-size: 24px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+.rainbow-block1-section .page-text .text-h4 .text-change a{
+    text-decoration: none;
+    font-family: RegularFont;
+    color:  #7f3e98;
+}
+.rainbow-block1-section .page-text .text-h4 .text-email a{
+    text-decoration: none;
+    font-family: RegularFont;
+    color:  #7f3e98;
+    font-size: 24px;
+}
+.rainbow-block1-section .page-text .book-heading {
+    font-family: RegularFont;
+    color: purple;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+/*************************************************
+    bea winner, wordsofaffirmation,
+    humanrace, covid-19---  pages
+************************************************/
+.main-parent-section{
+      background: #f08cc1;
+      width: 100%;
+}
+.rainbow-parent-heading{
+    background: #148042;
+   margin-top: 20px !important;
+   margin-bottom: 5px !important;
+}
+.rainbow-parent2-heading{
+    background: #148042;
+   margin-top: 0px !important;
+   margin-bottom: 5px !important;
+}
+.rainbow-parent3-heading{
+    background: #148042;
+   margin-top: 0px !important;
+   margin-bottom: 5px !important;
+}
+.main-parent-section .rainbow-block2-section{
+    background:  #148042;
+    padding: 0px 50px 20px 50px;
+    margin-bottom: 50px !important;
+}
+.rainbow-parent-heading .rainbow-heading-1{
+    font-family: BoldFont;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.rainbow-parent2-heading .rainbow-heading-1{
+    font-family: RegularFont;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.rainbow-parent3-heading .rainbow-heading-1{
+    font-family: RegularFont;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.rainbow-block2-section .page-text .text-h4{
+    font-family: RegularFont;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 30px;
+    line-height: 30px;
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+.rainbow-block2-section .page-text .text-h4 i{
+    text-decoration: underline;
+}
+.rainbow-block2-section .page-text .text-head{
+    font-family: RegularFont;
+    color: purple;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+.rainbow-block2-section .page-text .text-style {
+    font-family: BoldFont;
+    color: #213f9a;
+    font-size: 24px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+.rainbow-block2-section .page-text .text-h4 .text-change {
+    color: #ff7797;
+}
+.rainbow-block2-section .page-text .text-h4 .text-change a{
+    text-decoration: none;
+    font-family: RegularFont;
+    color: #ff7797;
+}
+.rainbow-block2-section .page-text .text-h4 ul li{
+    list-style: none;
+}
+.affrimtion-img{
+  display: flex;
+  justify-content: center;
+}
+.affrimtion-img2{
+  padding-top: 30px !important;
+  display: flex;
+  justify-content: center;
+}
+
+/***********************
+    Purchase Page
+***********************/
+.purchase-section{
+    background: #0ba14b;
+    width: 100%;
+}
+.purchase-heading{
+   background: #f26522;
+   margin-top: 20px !important;
+   margin-bottom: 5px !important;
+}
+.purchase-section .purchase-block-section{
+    background:  #f26522;
+    padding: 0px 50px 20px 50px;
+    margin-bottom: 50px !important;
+}
+.purchase-heading .rainbow-heading-1{
+    font-family: BoldFont;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.purchase-block-section .page-text .text-h4{
+    font-family: RegularFont;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 30px;
+    line-height: 30px;
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+.purchase-block-section .page-text .text-head{
+    font-family: RegularFont;
+    color: purple;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+.purchase-block-section .page-text .text-h4 .text-change {
+    color: #0beeaa;
+}
+.purchase-block-section .page-text .text-h4 .text-change a{
+    text-decoration: none;
+    font-family: RegularFont;
+    color: #0beeaa;
+}
+.affrimtion-img2{
+  padding-top: 30px !important;
+  display: flex;
+  justify-content: center;
+}
+
+/*************************************
+    endorsements, Book3, book4 Page
+*************************************/
+.review-section{
+    background: #00f4ff;
+    width: 100%;
+}
+.review-heading{
+   background: #7f3e98;
+   margin-bottom: 2px !important;
+}
+.padding_top{
+  margin-top: 30px !important;
+}
+.review-section .review-block-section{
+    background:  #7f3e98;
+    padding: 0px 50px 20px 50px;
+    margin-bottom: 50px !important;
+}
+
+.review-heading .review-heading-1{
+    font-family: BoldFont;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.review-heading .review-heading-2{
+    font-family: RegularFont;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px 10px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.review-block-section .page-text .text-h4{
+    font-family: RegularFont;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 30px;
+    line-height: 30px;
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+.review-block-section .page-text .text-head{
+    font-family: RegularFont;
+    color: purple;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+.review-block-section .page-text .text-h4 .text-change {
+    color: #0beeaa;
+}
+.review-block-section .page-text .text-h4 .text-change a{
+    text-decoration: none;
+    font-family: RegularFont;
+    color: #0beeaa;
+}
+.book3-img{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+/*************************************
+            Store Page
+*************************************/
+.store-section{
+    background: #ed1c24;
+    width: 100%;
+}
+.store-heading{
+   background: #ef6497;
+    margin-top: 30px !important;
+   margin-bottom: 2px !important;
+}
+.store-heading .store-heading-1{
+    font-family: BoldFont;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.store-section .store-block-section{
+    background:  #ef6497;
+    padding: 0px 40px 20px 40px;
+    margin-bottom: 50px !important;
+}
+.store-block-section img{
+   margin-top: 20px;
+   width: 100%; 
+}
+.store-block-section .page-text .text-h4{
+    font-family: RegularFont;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 30px;
+    line-height: 30px;
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+
+.store-block-section .store-sale .text-h4{
+    font-family: RegularFont;
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    background: #ef6497;
+    padding: 20px 10px;
+    margin-bottom: 2px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.store-block-section .page-text .text-h4 .text-change {
+    color: #213f9a;
+    font-weight: bold;
+}
+.store-block-section .page-text .text-h4  a{
+    color: #9f0b10;
+}
+.store-block-section  .button1{
+  padding: 0px 200px 7px 200px;
+  margin-top: 15px;
+}
+.store-block-section  .button2{
+  padding: 10px 197px 10px 197px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.store-block-section  .button3{
+  padding: 10px 160px 10px 160px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.store-block-section  .button1 img{
+  width: 100%;
+}
+
+/*************************************
+            Policy Page
+*************************************/
+.privacy{
+   background: #ef647;
+}
+.privacy .heading-h4{
+    font-family: BoldFont;
+    color: #232222;
+    font-size: 34px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-top: 30px !important;
+}
+.privacy-section .privacy-block-section{
+    background:  #f7f7f7;
+    padding: 30px;
+    margin-bottom: 50px !important;
+}
+.privacy-block-section .privacy .text-h4{
+    font-family: RegularFont;
+    color: #434343;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.privacy-block-section .privacy  .text-h4 ul li{
+   list-style: none;
+   list-style-type: decimal;
+   padding-top: 7px;
+   margin-left: 15px;
+}
+
+/**************************
+      Level PAge
+**************************/
+.level-page-section{
+   background: #ed1c24;
+}
+.level-parent-heading{
+   background-color: #213f9a;
+    margin-top: 20px !important;
+    margin-bottom: 5px !important;
+}
+.level-parent-heading  .heading-1{
+    font-family: RegularFont;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 2px;
+}
+.level-child-heading{
+   background-color: #213f9a;
+    margin-bottom: 5px !important;
+}
+.level-child-heading  .heading-2{
+    font-family: RegularFont;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 2px;
+}
+.level-page-section .level-block-section{
+   background-color: #213f9a;
+    padding: 30px;
+    margin-bottom: 50px !important;
+}
+.level-block-heading .heading-3{
+    font-family: RegularFont;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.level-form-box{
+  display: flex;
+  justify-content: center;
+}
+.level-form{
+  width: 450px;
+}
+.level-form label{
+   font-size: 34px;
+   text-transform: uppercase;
+   color: white;
+   text-align: center;
+   font-family: RegularFont;
+}
+.level-form input{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #213f9a;
+    font-family: RegularFont;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+.level-button{
+    width: 250px;
+    background: #ed1c24;
+    border: none;
+    border-radius: 0px;
+    font-family: 'RegulatFont';
+    font-size: 34px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 20px;
+    margin: 25px 0px;
+    margin-left: 135px;
+}
+.level-block-heading .heading-3 span{
+    font-family: RegularFont;
+    font-size: 35px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 10px;
+    background: green;
+
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.level-block-section .page-text .text-h4{
+    font-family: RegularFont;
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.level-block-section .image{
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    width: 100%;
+}
+.level-block-section .image img{
+    width: 100%;
+}
+.level-block-section .download h4{
+    background: #7e7e7e;
+    display: block;
+    padding: 15px 10px;
+    font-size: 25px;
+    color: #3e3e3e;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*************************
+      Media Queries
+*************************/
+@media (max-width: 1600px){
+	.banner{
+		min-height: 430px ;
+	}
+}
+@media (max-width: 1440px){
+  .banner {
+     min-height: 395px;
+
+  }
+}
+@media (max-width: 1366px){
+  .banner {
+     min-height: 375px;
+  }
+}
+@media (max-width: 900px){
+.banner {
+    min-height: 275px;
+}
+}
+@media (max-width: 768px){
+.banner {
+    min-height: 215px;
+}
+.navi{
+  display: flex;
+  flex-direction: row; 
+  order: 2;
+}
+/********************************
+      Contact
+********************************/
+.rainbow-text-section .page-text i{
+   font-size: 50px;
+   margin-right: 20px;
+   color: #213f9a;
+   float: right;
+}
+.rainbow-text-section .page-text a{
+   font-family: RegularFont;
+   text-decoration: none;
+    color: #213f9a;
+    font-size: 24px;
+}
+/********************************
+    About-Us, goals page,
+********************************/
+.rainbow-heading .rainbow-heading-1{
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding: 20px 10px;
+   font-size: 34px;
+   text-align: center;
+}
+.rainbow-text-section .page-text .text-h4{
+    font-family: RegularFont;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.rainbow-text-section .page-text .text-head{
+  font-family: RegularFont;
+    font-size: 24px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+.rainbow-text-section .page-text .text-style {
+    font-size: 24px;
+    line-height: 24px;
+}
+/*************************************
+            Policy Page
+*************************************/
+.privacy .heading-h4{
+    font-size: 25px;
+    padding-top: 20px !important;
+}
+.privacy-block-section .privacy .text-h4{
+    font-size: 20px;
+    line-height: 26px;
+}
+}
+@media (max-width: 600px){
+.banner {
+    min-height: 180px;
+}
+}
+@media (max-width: 425px){
+.banner {
+    min-height: 145px;
+}
+.heading-h1{
+   text-align: left;
+   font-size: 20px;
+   line-height: 24px;
+   padding: 20px 10px;
+   margin: 0 auto;
+   width: 100%;
+}
+.heading-h1-mobile{
+  padding: 10px;
+}
+.img-inner{
+	margin-top: 20px !important;
+}
+.h-sec-4 .sec-1 .text {
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 26px;
+    background: #0056fe;
+}
+.h-sec-4 .sec-2 img {
+    width: 80%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.img-block{
+	margin-top: 20px !important;
+}
+.h-sec-9 .img-1{
+	width: 100%;
+	height: 100px;
+}
+.img-ring img{
+    height: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+header{
+	background: #0099ff;
+}
+
+/********************************
+      Contact
+********************************/
+.rainbow-text-section .page-text i{
+   font-size: 30px;
+   margin-right: 20px;
+   text-align: center;
+   color: #213f9a;
+   float: none;
+   display: flex;
+   justify-content: center;
+}
+.rainbow-text-section .page-text a{
+   font-family: RegularFont;
+   text-decoration: none;
+    color: #213f9a;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding-top: 5px;
+}
+/********************************
+    About-Us, goals page,
+********************************/
+
+.page-bg .rainbow-text-section{
+    padding: 20px 30px 20px 30px;
+}
+.rainbow-heading .rainbow-heading-1{
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding: 20px 10px;
+   font-size: 34px;
+   text-align: center;
+}
+.rainbow-text-section .page-text .text-h4{
+    font-family: RegularFont;
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.rainbow-text-section .page-text .text-head{
+  font-family: RegularFont;
+    font-size: 20px;
+    padding-top: 25px;
+    line-height: 26px;
+}
+.rainbow-text-section .page-text .text-style {
+    font-size: 20px;
+    line-height: 26px;
+}
+/************************************************
+    Howitworks, Features, BookDescription page,
+************************************************/
+.main-section .rainbow-block1-section {
+    padding: 20px 30px 20px 30px;
+}
+.rainbow-page-heading .rainbow-heading-1{
+    font-size: 30px;
+}
+.rainbow-block1-section .page-text .text-h4{
+    font-size: 20px;
+}
+.rainbow-block1-section .page-text .padding{
+    padding-top: 0px !important;
+}
+.rainbow-block1-section .page-text .text-h4 .text-color {
+    color: #213f9a; 
+}
+.rainbow-block1-section .page-text .text-head{
+    font-family: RegularFont;
+    color: purple;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+.rainbow-block1-section .page-text .text-h4 .text-email a{
+    text-decoration: none;
+    font-family: RegularFont;
+    color:  #7f3e98;
+    font-size: 20px;
+}
+
+.rainbow-block1-section .page-text .book-heading {
+    font-family: RegularFont;
+    color: purple;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 34px;
+}
+
+/*************************************************
+    bea winner, wordsofaffirmation,
+    humanrace, covid-19---  pages
+************************************************/
+.main-parent-section .rainbow-block2-section{
+    padding: 10px 25px 30px 25px;
+}
+.rainbow-parent-heading .rainbow-heading-1{
+    font-size: 25px;
+}
+.rainbow-parent2-heading .rainbow-heading-1{
+    font-size: 25px;
+}
+.rainbow-parent3-heading .rainbow-heading-1{
+    font-size: 25px;
+}
+.rainbow-block2-section .page-text .text-h4{
+    font-size: 20px;
+    line-height: 26px;
+}
+.rainbow-block2-section .page-text .text-style {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+
+/*************************************************
+    ednorsements, Book3, Book4   pages
+************************************************/
+.review-section .review-block-section{
+    padding: 10px 25px 30px 25px;
+}
+.review-heading .review-heading-1{
+    font-size: 22px;
+}
+.review-heading .review-heading-2{
+    font-size: 18px;
+}
+.review-block-section .page-text .text-h4{
+    font-size: 20px;
+    line-height: 26px;
+}
+
+
+/***********************
+    Purchase Page
+***********************/
+.purchase-heading{
+   background: #f26522;
+   margin-top: 20px !important;
+   margin-bottom: 5px !important;
+}
+.purchase-section .purchase-block-section{
+    padding: 0px 30px 20px 30px;
+}
+.purchase-heading .rainbow-heading-1{
+    font-size: 30px;
+}
+.purchase-block-section .page-text .text-h4{
+    font-size: 20px;
+    line-height: 26px;
+}
+/*************************************
+            Store Page
+*************************************/
+.store-heading .store-heading-1{
+    font-size: 20px;
+}
+.store-section .store-block-section{
+    padding: 0px 30px 20px 30px;
+}
+.store-block-section img{
+   margin-top: 20px;
+   width: 100%; 
+}
+.store-block-section .page-text .text-h4{
+    font-size: 20px;
+}
+.store-block-section .store-sale .text-h4{
+    font-size: 22px;
+}
+.store-block-section  .button1{
+  padding: 0px 100px 7px 100px;
+}
+.store-block-section  .button2{
+  padding: 10px 95px 10px 95px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.store-block-section  .button3{
+  padding: 10px 58px 10px 58px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+/*************************************
+            Policy Page
+*************************************/
+.privacy-block-section{
+    padding: 20px;
+}
+.privacy .heading-h4{
+    font-size: 25px;
+    padding-top: 20px !important;
+}
+.privacy-block-section .privacy .text-h4{
+    font-family: RegularFont;
+    font-size: 18px;
+}
+}
+@media (max-width: 375px){
+/*****************************
+             Store
+*****************************/
+.store-block-section  .button1{
+  padding: 0px 80px 7px 80px;
+}
+.store-block-section  .button2{
+  padding: 10px 75px 10px 75px;
+}
+.store-block-section  .button3{
+  padding: 10px 38px 10px 38px;
+}
+}
+@media (max-width: 325px){
+.banner {
+    min-height: 110px;
+}
+/********************************
+    About-Us, goals page,
+********************************/
+.rainbow-heading .rainbow-heading-1{
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding: 20px 10px;
+   font-size: 30px;
+   text-align: center;
+}
+.rainbow-text-section .page-text .text-h4{
+    font-family: RegularFont;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.rainbow-text-section .page-text .text-head{
+  font-family: RegularFont;
+    font-size: 18px;
+    padding-top: 25px;
+    line-height: 26px;
+}
+.rainbow-text-section .page-text .text-style {
+    font-size: 18px;
+    line-height: 26px;
+}
+/*************************************
+            Policy Page
+*************************************/
+.privacy-section .privacy-block-section{
+    padding: 10px;
+ }
+/************************************************
+    Howitworks, Features, BookDescription page,
+************************************************/
+.rainbow-page-heading .rainbow-heading-1{
+    font-size: 34px;
+}
+.rainbow-block1-section .page-text .text-h4{
+    font-size: 18px;
+}
+.rainbow-block1-section .page-text .padding{
+    padding-top: 0px !important;
+}
+.rainbow-block1-section .page-text .text-h4 .text-color {
+    color: #213f9a; 
+}
+.rainbow-block1-section .page-text .text-head{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.rainbow-block1-section .page-text .text-h4 .text-email a{
+    font-size: 18px;
+}
+.rainbow-block1-section .page-text .book-heading {
+    font-size: 18px;
+}
+/*************************************************
+    bea winner, wordsofaffirmation,
+    humanrace, covid-19---  pages
+************************************************/
+.main-parent-section .rainbow-block2-section{
+    padding: 10px 25px 30px 25px;
+}
+.rainbow-parent-heading .rainbow-heading-1{
+    font-size: 20px;
+}
+.rainbow-parent2-heading .rainbow-heading-1{
+    font-size: 18px;
+}
+.rainbow-parent3-heading .rainbow-heading-1{
+    font-size: 18px;
+}
+.rainbow-block2-section .page-text .text-h4{
+    font-size: 18px;
+    line-height: 26px;
+}
+.rainbow-block2-section .page-text .text-style {
+    font-size: 18px;
+    line-height: 26px;
+}
+/***********************
+    Purchase Page
+***********************/
+.purchase-section .purchase-block-section{
+    padding: 0px 30px 20px 30px;
+}
+.purchase-heading .rainbow-heading-1{
+    font-size: 30px;
+}
+.purchase-block-section .page-text .text-h4{
+    font-size: 18px;
+    line-height: 26px;
+}
+.purchase-block-section .page-text .text-h4 .text-change a{
+    font-size: 18px;
+}
+/*************************************************
+    bea winner, wordsofaffirmation,
+    humanrace, covid-19---  pages
+************************************************/
+.main-parent-section .rainbow-block2-section{
+    padding: 10px 25px 30px 25px;
+}
+.review-heading .review-heading-1{
+    font-size: 22px;
+}
+.review-heading .review-heading-2{
+    font-size: 15px;
+    line-height: 24px;
+}
+.review-block-section .page-text .text-h4{
+    font-size: 18px;
+    line-height: 26px;
+}
+/*************************************
+            Store Page
+*************************************/
+.store-heading .store-heading-1{
+    font-size: 18px;
+}
+.store-section .store-block-section{
+    padding: 0px 20px 20px 20px;
+}
+.store-block-section img{
+   margin-top: 20px;
+   width: 100%; 
+}
+.store-block-section .page-text .text-h4{
+    font-size: 18px;
+}
+.store-block-section .store-sale .text-h4{
+    font-size: 19px;
+}
+.store-block-section  .button1{
+  padding: 0px 100px 7px 100px;
+}
+.store-block-section  .button2{
+  padding: 10px 70px 10px 70px;
+}
+.store-block-section  .button3{
+  padding: 10px 31px 10px 31px;
+}
+}
